@@ -1,0 +1,71 @@
+// VARIABLES
+
+$color-abigail: #619ef0;
+$color-lilsherman: #30d074;
+$color-about: #f3cb2c;
+$color-blog: #f3cb2c;
+$color-contact: #FF604E;
+$color-primary: #0067F4;
+$color-success: #17C671;
+$color-warning: #FFB400;
+$color-danger: #C4183C;
+$color-secondary: #5A6169;
+$color-info: #00B8D8;
+$color-light: #E9ECEF;
+$carousel-indicator-active-bg: #191f24;
+
+// Your variable overrides
+
+
+
+// Bootstrap and its default variables
+@import "../bootstrap/scss/bootstrap";
+
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+[aria-expanded="false"] .menu__icon--open {
+    display: block;
+}
+
+[aria-expanded="false"] .menu__icon--close {
+    display: none;
+}
+
+[aria-expanded="true"] .menu__icon--open {
+    display: none;
+}
+
+[aria-expanded="true"] .menu__icon--close {
+    display: block;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.0rem;
+    font-weight: 700;
+    color: #0E4194;
+}
+
+.dropdown-item {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.0rem;
+    font-weight: 700;
+    color: #0E4194;
+}
+
+.navbar-light .navbar-toggler {
+    border-style: none;
+    outline-style: none;
+}
+
+.topText {
+    margin-top: 2rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.0rem;
+    font-weight: 700;
+    color: #0E4194;
+}
