@@ -9555,11 +9555,55 @@ html {
   outline-style: none;
 }
 
-.topText {
-  margin-top: 2rem;
+.iconText {
   font-family: 'Roboto', sans-serif;
   font-size: 1.0rem;
   font-weight: 700;
   color: #0E4194;
+}
+
+.titleText {
+  margin-top: 2rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.0rem;
+  font-weight: 700;
+  color: #0E4194;
+}
+
+/*
+li, .iconlist {
+    list-style: none;
+    display: inline-block;
+    margin-bottom: .4rem;
+    margin-right: .4rem;
+    margin-top: 2rem;
+}
+*/
+.iconList {
+  margin-top: 2rem;
+}
+
+.homeCarousel {
+  margin-top: 4rem;
+}
+
+.carousel-indicators {
+  bottom: -50px;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+
+.popularTools {
+  margin-top: 4rem;
+}
+
+.footerText {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  color: #ffffff;
 }
 /*# sourceMappingURL=style.css.map */
