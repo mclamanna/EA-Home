@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 106.63 139.5">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #fff;
+        stroke-width: 4px;
+      }
+
+      .cls-3 {
+        fill: #fff;
+        stroke: rgba(0,0,0,0);
+      }
+    </style>
+  </defs>
+  <g id="ETA" transform="translate(-616 -738)">
+    <g id="eta-icon-no-text" transform="translate(616 738)">
+      <path id="Path_2073" data-name="Path 2073" class="cls-1" d="M0,0H106.63V106.63H0Z"/>
+      <path id="Path_2074" data-name="Path 2074" class="cls-2" d="M85.416,21.772H72.087V4H9.886A8.912,8.912,0,0,0,1,12.886V61.758H9.886a13.329,13.329,0,0,0,26.658,0H63.2a13.329,13.329,0,0,0,26.658,0h8.886V39.543Zm-62.2,46.651a6.655,6.655,0,1,1,4.714-1.949,6.655,6.655,0,0,1-4.714,1.949ZM83.2,28.437l8.7,11.106H72.087V28.436ZM76.53,68.423a6.655,6.655,0,1,1,4.715-1.949,6.655,6.655,0,0,1-4.715,1.949Z" transform="translate(3.443 34.772)"/>
+    </g>
+    <path id="Path_4" data-name="Path 4" class="cls-3" d="M9.756-6.348H3.916v4.375h6.826V0h-9.3V-14.219h9.229v1.992H3.916V-8.3h5.84Zm13.467-5.879H18.789V0H16.338V-12.227H11.943v-1.992h11.28Zm8.652,8.916H26.367L25.215,0H22.646l5.371-14.219h2.217L35.615,0H33.037ZM27.061-5.3h4.121l-2.061-5.9Z" transform="translate(651 877)"/>
+  </g>
+</svg>
