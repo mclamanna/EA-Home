@@ -96,9 +96,25 @@ html {
     color: #0E4194;
 }
 
-.titleText{
+.titleText {
     font-family: 'Hind Vadodara', sans-serif;
     font-size: 2.0rem;
+    font-weight: 600;
+    color: #0E4194; 
+}
+
+.entanaText {
+	padding: .6rem;
+    font-family: 'Hind Vadodara', sans-serif;
+    font-size: 2.0rem;
+    font-weight: 600;
+	color: #ffffff;
+}
+
+.popularToolsText {
+    margin-top: 8rem;
+    font-family: 'Hind Vadodara', sans-serif;
+    font-size: 2.2rem;
     font-weight: 600;
     color: #0E4194; 
 }
@@ -107,15 +123,7 @@ html {
     font-family: 'Hind Vadodara', sans-serif;
     font-size: 1.0rem;
     font-weight: 500;
-    color: #ffffff;
-}
-
-.popularToolsText{
-    margin-top: 8rem;
-    font-family: 'Hind Vadodara', sans-serif;
-    font-size: 2.0rem;
-    font-weight: 600;
-    color: #0E4194; 
+	color: #ffffff;
 }
 
 .testList, .iconlist {

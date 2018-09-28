@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 82.715 104.711">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2, .cls-4 {
+        fill: none;
+      }
+
+      .cls-3 {
+        fill: #0f4194;
+      }
+
+      .cls-4 {
+        stroke: #fff;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <g id="sv-web-icon-no-text" transform="translate(-770 -2995.225)">
+    <g id="ic_settings_cell_black_24px" transform="translate(770 3017.221)">
+      <path id="Path_2077" data-name="Path 2077" class="cls-1" d="M40.465.034,12.893,0A6.913,6.913,0,0,0,6,6.893V62.036a6.913,6.913,0,0,0,6.893,6.893H40.465a6.913,6.913,0,0,0,6.893-6.893V6.893A6.884,6.884,0,0,0,40.465.034Zm0,55.109H12.893V13.786H40.465Z" transform="translate(14.679)"/>
+      <path id="Path_2078" data-name="Path 2078" class="cls-2" d="M0,0H82.715V82.715H0Z"/>
+      <rect id="Rectangle_1492" data-name="Rectangle 1492" class="cls-3" width="17.483" height="7.361" rx="3.681" transform="translate(32.205 57.969)"/>
+    </g>
+    <path id="Path_2079" data-name="Path 2079" class="cls-4" d="M-8726-8281.8a11.235,11.235,0,0,1,6.786-2.476,12.357,12.357,0,0,1,7.365,2.476" transform="translate(9530.044 11294.803)"/>
+    <path id="Path_2080" data-name="Path 2080" class="cls-4" d="M-8726-8277.835a25.362,25.362,0,0,1,16.052-6.432c4.83-.131,10.87,1.405,17.426,6.432" transform="translate(9520.843 11288.36)"/>
+    <path id="Path_2081" data-name="Path 2081" class="cls-4" d="M-8726-8274.613a35.715,35.715,0,0,1,23.039-9.649c6.932-.2,15.6,2.11,25,9.649" transform="translate(9513.482 11280.999)"/>
+  </g>
+</svg>

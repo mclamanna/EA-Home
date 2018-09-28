@@ -1,0 +1,16 @@
+<svg id="eta-icon-no-text" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 119.52 88.28">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #fff;
+        stroke-width: 4px;
+      }
+    </style>
+  </defs>
+  <path id="Path_2073" data-name="Path 2073" class="cls-1" d="M0,0H119.52V82.661H0Z"/>
+  <path id="Path_2074" data-name="Path 2074" class="cls-2" d="M95.62,23.92H80.68V4H10.96A9.989,9.989,0,0,0,1,13.96V68.74h9.96a14.94,14.94,0,0,0,29.881,0H70.719a14.94,14.94,0,0,0,29.881,0h9.96V43.84ZM25.9,76.211a7.459,7.459,0,1,1,5.284-2.185A7.459,7.459,0,0,1,25.9,76.211Zm67.235-44.82,9.752,12.449H80.68V31.39ZM85.66,76.211a7.459,7.459,0,1,1,5.285-2.185A7.459,7.459,0,0,1,85.66,76.211Z" transform="translate(3.98 2.6)"/>
+</svg>

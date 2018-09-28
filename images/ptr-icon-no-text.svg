@@ -1,0 +1,12 @@
+<svg id="ptr-icon-no-text" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89.584 70.4">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Group_1896" data-name="Group 1896">
+    <path id="Path_1399" data-name="Path 1399" class="cls-1" d="M22.4,123.978h3.2V53.6H22.4Zm19.189,0H44.8V53.6H41.585Zm-12.793,0h9.6V53.6H28.8v70.378Zm-12.793,0H19.21V53.6H16Zm-16,0H3.2V53.6H0Zm6.4,0h6.4V53.6H6.4Zm64,0h3.2V53.6H70.4Zm-22.4,0h6.4V53.6H48Zm28.792,0h6.4V53.6h-6.4ZM86.377,53.6V124h3.207V53.6Zm-22.4,70.378h3.207V53.6h-3.2Zm-6.4,0h3.207V53.6h-3.2Z" transform="translate(0 -53.6)"/>
+  </g>
+</svg>
