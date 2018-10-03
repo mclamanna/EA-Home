@@ -118,13 +118,20 @@ html {
     color: #0E4194; 
 }
 
+.orgChart {
+    background-color: #E9ECEF;   
+}
+
 .defOrgChart {
     margin-top: 1rem;
+    margin-bottom: 2rem;
     font-family: 'Hind Vadodara', sans-serif;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     font-weight: 600;
     color: #0E4194; 
+    max-width: 50rem;
 }
+
 
 .bottomLinks {
     font-family: 'Hind Vadodara', sans-serif;
