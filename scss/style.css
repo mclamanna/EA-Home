@@ -10284,6 +10284,22 @@ html {
   display: block;
 }
 
+.btn-primary {
+  color: #ffffff;
+  background-color: #207AB5;
+  border-color: #207AB5;
+}
+
+.btn-primary:hover {
+  colors: #ffffff;
+  background-color: #3D9DDC;
+  border-color: #3D9DDC;
+}
+
+.text-muted {
+  color: #212529 !important;
+}
+
 .navbar-light .navbar-nav .nav-link {
   font-family: 'Hind Vadodara', sans-serif;
   font-size: 1.0rem;
