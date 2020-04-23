@@ -4996,6 +4996,10 @@ input[type="button"].btn-block {
   margin-bottom: 0;
 }
 
+#mailcard {
+font-size: .9rem;
+}
+
 .card-link:hover {
   text-decoration: none;
 }
