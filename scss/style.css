@@ -6,12 +6,10 @@
   font-family: 'Hind Vadodara', sans-serif;
 }
 
-.frontpagejumboSSTR {
-  background-image: url(https://www.dabsterent.com/images/SSTRBack);
+.frontpage1 {
+  background-image: url(/images/Front1.jpg);
   background-size: cover;
-  border-top: .08rem solid #000000;
   border-bottom: .08rem solid #000000;
-  margin-top: -2rem;
 }
 
 /*!
@@ -11784,7 +11782,6 @@ html {
   font-family: 'Hind Vadodara', sans-serif;
   font-size: 1.0rem;
   font-weight: 500;
-  color: #0E4194;
 }
 
 .dropdown-item {
@@ -11810,11 +11807,25 @@ html {
   color: #0E4194;
 }
 
-.titleText {
-  font-family: 'Hind Vadodara', sans-serif;
-  font-size: 2.0rem;
-  font-weight: 600;
-  color: #0E4194;
+hr.style2 {
+  border: none;
+  background: #C4183C;
+  height: .2rem;
+  width: 20rem;
+}
+
+.titleText1 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 4.6rem;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.titleText2 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 2.4rem;
+  font-weight: 400;
+  color: #FFFFFF;
 }
 
 .titleCat {
