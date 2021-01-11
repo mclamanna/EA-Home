@@ -21,10 +21,18 @@ $carousel-indicator-active-bg: #0E4194;
     font-family: 'Hind Vadodara', sans-serif;
 }
 
+.frontpagejumboSSTR {
+    background-image: url(https://www.dabsterent.com/images/SSTRBack);
+    background-size: cover;
+    border-top: .08rem solid #000000;
+    border-bottom: .08rem solid #000000;
+    margin-top: -2rem;
+}
+
 // Bootstrap and its default variables
 
-@import "../bootstrap/scss/_functions";
-@import "../bootstrap/scss/_variables";
+@import "../scss/_functions";
+@import "../scss/_variables";
 
 $grid-breakpoints: (
         xs: 0,
@@ -43,7 +51,7 @@ $container-max-widths: (
         xxl: 1300px
 );
 
-@import "../bootstrap/scss/bootstrap";
+@import "../scss/bootstrap";
 
 html {
     font-family: 'Hind Vadodara', sans-serif;
