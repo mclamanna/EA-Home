@@ -75,23 +75,28 @@ html {
     color: #ffffff;
     background-color: #207AB5;
     border-color: #207AB5;
-    }
+}
     
-    .btn-primary:hover {
+.btn-primary:hover {
     color: #ffffff;
     background-color: #3D9DDC;
     border-color: #3D9DDC;
-    }
+}
 
 .text-muted {
         color: #212529 !important;
-    }
+}
+
+.fixed-top {
+    background-color:  #FFFFFF;
+    border-bottom: .08rem solid  #cccccc;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
 
 .navbar-light .navbar-nav .nav-link {
     font-family: 'Hind Vadodara', sans-serif;
     font-size: 1.0rem;
     font-weight: 500;
-   
 }
 
 .dropdown-item {
@@ -104,10 +109,6 @@ html {
 .navbar-light .navbar-toggler {
     border-style: none;
     outline-style: none;
-}
-
-.laptop {
-    margin-top: 4rem;
 }
 
 .iconText {

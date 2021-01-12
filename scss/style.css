@@ -11778,6 +11778,13 @@ html {
   color: #212529 !important;
 }
 
+.fixed-top {
+  background-color: #FFFFFF;
+  border-bottom: .08rem solid  #cccccc;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
 .navbar-light .navbar-nav .nav-link {
   font-family: 'Hind Vadodara', sans-serif;
   font-size: 1.0rem;
@@ -11794,10 +11801,6 @@ html {
 .navbar-light .navbar-toggler {
   border-style: none;
   outline-style: none;
-}
-
-.laptop {
-  margin-top: 4rem;
 }
 
 .iconText {
