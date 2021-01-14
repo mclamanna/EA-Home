@@ -17,6 +17,13 @@
   <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,400i|IBM+Plex+Sans+Condensed:400,400i|IBM+Plex+Sans:100,100i,400,400i,700,700i|IBM+Plex+Serif:400,400i" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script>
+      window.onbeforeunload = function() {
+          window.scrollTo(0, 0);
+      }
+  </script>
   <!-- Bootstrap core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
   
@@ -89,7 +96,7 @@
                     <div class="col-8 NewsPage">
                       <div class="titleText1">Enterprise Analytic News</div>
                       <div class="titleText2 mt-4">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.</div>
-                      <p class="lead mb-0"></p><a href="#firstnews" class="text-white font-weight-bold js-scroll-trigger">Continue reading...</a></p>
+                      <p class="lead mb-0"></p><a class="newanchor js-scroll-trigger" href="#firstnews">Continue reading...</a></p>
                     </div>
                   </div>
                   
@@ -349,6 +356,10 @@
                               <span class="footerText">© 2020 - USPS Enterprise Analytics</span>
                             </div>
                           </footer>
+                           <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <!-- Custom JavaScript for this theme -->
+    <script src="js/scrolling-nav.js"></script>
                         <script src="js/navbarcodepen.js"></script>
                         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
                         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
