@@ -21,25 +21,12 @@ $carousel-indicator-active-bg: #0E4194;
     font-family: 'Hind Vadodara', sans-serif;
 }
 
-.frontpage {
+.frontpage1 {
     background-image: url(/images/Front1.jpg);
     background-size: cover;
     border-bottom: .08rem solid #000000;
 }
 
-.FrontPage {
-  margin-top: 8rem;
-}
-
-.newspage {
-  background-image: url(/images/newsimage.jpg);
-  background-size: cover;
-  border-bottom: .08rem solid #000000;
-}
-
-.NewsPage {
-  margin-top: 8rem;
-}
 
 // Bootstrap and its default variables
 
@@ -84,6 +71,10 @@ html {
     background-color:  #FFFFFF;
 }
 
+.FrontPage {
+    margin-top: 8rem;
+}
+
 .mini {
     padding-left: .6rem;
 }
@@ -101,10 +92,6 @@ html {
     text-decoration:none;
 }
 
-h2 {
-  font-family: 'Roboto Slab', serif;
-  font-weight: 300;
-}
 
 .iconText {
     font-family: 'Hind Vadodara', sans-serif;
@@ -129,17 +116,9 @@ h2 {
 
 .titleText3 {
     font-family: 'Roboto Condensed', sans-serif;
-    font-style: italic;
     font-size: 1.2rem;
     font-weight: 700;
     color: #FFFFFF;
-}
-
-.titleText4 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 2.6rem;
-  font-style: italic;
-  color: #000000;
 }
 
 .titleCat {
@@ -155,49 +134,6 @@ h2 {
     font-size: 2.0rem;
     font-weight: 600;
 	color: #ffffff;
-}
-
-a.btn.disabled, fieldset:disabled a.btn {
-  pointer-events: none;
-}
-
-.btn {
-  display: inline-block;
-  font-weight: 400;
-  color: #212529;
-  text-align: center;
-  vertical-align: middle;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  background-color: transparent;
-  border: 1px solid transparent;
-  padding: .375rem .75rem;
-  font-size: 1rem;
-  line-height: 1.5;
-  border-radius: .25rem;
-  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-}
-
-.blog-pagination > .btn {
-  border-radius: 2rem;
-}
-.btn-outline-primary {
-  color: #007bff;
-  border-color: #007bff;
-}
-
-.btn-outline-secondary.disabled, .btn-outline-secondary:disabled {
-  color: #6c757d;
-  background-color: transparent;
-}
-.btn.disabled, .btn:disabled {
-  opacity: .65;
-}
-.btn-outline-secondary {
-  color: #6c757d;
-  border-color: #6c757d;
 }
 
 .table {
@@ -462,6 +398,7 @@ a.btn.disabled, fieldset:disabled a.btn {
       content: "";
       border: none;
       background-color: #000;
+      vertical-align: 0;
     }
     .dropdown-toggle::after {
       position: absolute;
@@ -473,6 +410,7 @@ a.btn.disabled, fieldset:disabled a.btn {
       content: "";
       border: none;
       background-color: #000;
+      vertical-align: 0;
       -webkit-transition: all 200ms linear;
       transition: all 200ms linear;
     }
