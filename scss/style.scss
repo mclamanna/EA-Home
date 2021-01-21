@@ -69,6 +69,10 @@ html {
     font-family: 'Hind Vadodara', sans-serif;
 }
    
+.align-center {
+  text-align: center;
+}
+
 .no-gutters {
     margin-right: 3rem;
     margin-left: 3rem;
@@ -183,6 +187,7 @@ a.btn.disabled, fieldset:disabled a.btn {
 .blog-pagination > .btn {
   border-radius: 2rem;
 }
+
 .btn-outline-primary {
   color: #007bff;
   border-color: #007bff;
@@ -205,9 +210,11 @@ a.btn.disabled, fieldset:disabled a.btn {
     border-bottom: 0px;
     border-right: 0px;
 }
+
 .table th, .table td {
     border: 0px;
 }
+
 .fixed-table-container {
     border: 0px;
 }
@@ -343,7 +350,7 @@ a.btn.disabled, fieldset:disabled a.btn {
   .nav-item:hover .nav-link {
     color: #377dff !important;
   }
-  
+
   .nav-item.active .nav-link {
     color: #777 !important;
   }
