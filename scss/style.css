@@ -12,6 +12,14 @@
   border-bottom: .08rem solid #000000;
 }
 
+.frontpage2 {
+  margin-top: -2rem;
+  background-image: url(/images/Front2.jpg);
+  background-size: cover;
+  border-top: .08rem solid #000000;
+  border-bottom: .08rem solid #000000;
+}
+
 .FrontPage {
   margin-top: 8rem;
 }
