@@ -39,8 +39,29 @@ $carousel-indicator-active-bg: #0E4194;
   border-bottom: .08rem solid #000000;
 }
 
-.tools {
+.mailprocessing {
+  background-image: url(/images/Usps2.jpg);
+  background-size: cover;
+  border-bottom: .08rem solid #000000;
+}
+
+.delivery {
+  margin-top: -2rem;
   background-image: url(/images/Usps1.jpg);
+  background-size: cover;
+  border-bottom: .08rem solid #000000;
+}
+
+.logistics {
+  margin-top: -2rem;
+  background-image: url(/images/Usps3.jpg);
+  background-size: cover;
+  border-bottom: .08rem solid #000000;
+}
+
+.maintenance {
+  margin-top: -2rem;
+  background-image: url(/images/Usps4.jpg);
   background-size: cover;
   border-bottom: .08rem solid #000000;
 }
