@@ -21,10 +21,6 @@ $carousel-indicator-active-bg: #0E4194;
     font-family: 'Hind Vadodara', sans-serif;
 }
 
-.jumbotron{
-   
-}
-
 .frontpage {
   background-image: url(/images/Front1.jpg);
   background-size: cover;
@@ -37,6 +33,10 @@ $carousel-indicator-active-bg: #0E4194;
   background-size: cover;
   border-top: .08rem solid #000000;
   border-bottom: .08rem solid #000000;
+}
+
+video {
+  outline: none;
 }
 
 .mailprocessing {

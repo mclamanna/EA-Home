@@ -20,6 +20,10 @@
   border-bottom: .08rem solid #000000;
 }
 
+video {
+  outline: none;
+}
+
 .mailprocessing {
   background-image: url(/images/Usps2.jpg);
   background-size: cover;
