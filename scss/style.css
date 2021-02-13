@@ -11851,17 +11851,6 @@ html {
   text-align: center;
 }
 
-.no-gutters {
-  margin-right: 3rem;
-  margin-left: 3rem;
-}
-
-.no-gutters > .col,
-.no-gutters > [class*="col-"] {
-  padding-right: 3rem;
-  padding-left: 3rem;
-}
-
 .fixed-top {
   background-color: #FFFFFF;
 }
