@@ -13,25 +13,44 @@ $carousel-indicator-active-bg: #0E4194;
 
 // Your variable overrides
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-.kotak
-{
-    opacity:0;
+// Bounce in
+.bounce { font-family: 'Ubuntu', sans-serif; 
+  position: absolute; 
+  top: 50%; left: 50%; 
+  transform: translateX(-50%) translateY(-50%); } 
+  /* center text styling */
+
+
+@media screen and (max-width: 488px) { h1 { font-size: 2.6em; letter-spacing: -2px; } } 
+/* control h1 font size below 768px screen */
+
+/* animation duration and fill mode */
+.cssanimation {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  display: inline-block;
 }
 
-#awal{
-  text-align: center;
+/* bounceInLeft animation declaration & iteration counting */
+.bounceInLeft { animation-name: bounceInLeft }
+
+/* bounceInLeft animation keyframes */
+@keyframes bounceInLeft {
+    0% { transform: translate3d(-300%, 0, 0) }
+    58% { transform: translate3d(27px, 0, 0) }
+    73% { transform: translate3d(-12px, 0, 0) }
+    88% { transform: translate3d(8px, 0, 0) }
 }
 
+.bounceInRight { animation-name: bounceInRight }
 
-=======
->>>>>>> parent of 5a400d1... update
-=======
->>>>>>> parent of 5a400d1... update
-=======
->>>>>>> parent of 5a400d1... update
+@keyframes bounceInRight {
+  0% { transform: translate3d(300%, 0, 0) }
+  58% { transform: translate3d(27px, 0, 0) }
+  73% { transform: translate3d(-12px, 0, 0) }
+  88% { transform: translate3d(8px, 0, 0) }
+}
+//
 .form-control {
     font-family: 'Hind Vadodara', sans-serif;
 }
