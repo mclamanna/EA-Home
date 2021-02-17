@@ -1,25 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 81.27 86.889">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: #fff;
-      }
-
-      .cls-2 {
-        fill: none;
-        stroke: #fff;
-        stroke-width: 5px;
-      }
-    </style>
-  </defs>
-  <g id="dms-icon-no-text" transform="translate(2.5)">
-    <g id="Group_1901" data-name="Group 1901" transform="translate(43.51)">
-      <g id="Group_1900" data-name="Group 1900">
-        <path id="Path_1404" data-name="Path 1404" class="cls-1" d="M272.686,0A14.881,14.881,0,0,0,257.8,14.9c0,14.211,14.886,32.759,14.886,32.759S287.572,29.114,287.572,14.9A14.9,14.9,0,0,0,272.686,0Zm0,23.122a8.042,8.042,0,1,1,5.7-2.355,8.042,8.042,0,0,1-5.7,2.355Z" transform="translate(-257.8)"/>
-      </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+  <g id="Group_5" data-name="Group 5" transform="translate(-900 -480)">
+    <g id="Ellipse_6" data-name="Ellipse 6" transform="translate(900 480)" fill="none" stroke="#0ef799" stroke-width="6">
+      <circle cx="60" cy="60" r="60" stroke="none"/>
+      <circle cx="60" cy="60" r="57" fill="none"/>
     </g>
-    <path id="Path_1405" data-name="Path 1405" class="cls-2" d="M47.875,342.4,23.2,367.126A9.56,9.56,0,0,0,28.82,369H86a9.546,9.546,0,0,0,9.519-9.384Z" transform="translate(-19.284 -284.611)"/>
-    <path id="Path_1406" data-name="Path 1406" class="cls-2" d="M235.373,179.01l-3.916,4.9-3.932-4.9a100.255,100.255,0,0,1-7.662-11.308L208.2,179.4l41.131,14.869V154.2C245.128,166.774,235.879,178.386,235.373,179.01Z" transform="translate(-173.061 -128.175)"/>
-    <path id="Path_1407" data-name="Path 1407" class="cls-2" d="M38.447,54.968A19.633,19.633,0,0,1,39.662,48.2H9.553A9.573,9.573,0,0,0,0,57.736V114.6L42.734,71.727C40.3,66.343,38.447,60.453,38.447,54.968Z" transform="translate(0 -40.065)"/>
+    <path id="Path_2" data-name="Path 2" d="M24.562,7.652a3.423,3.423,0,0,0,5.627,0C50.9-22.38,54.75-25.463,54.75-36.5A27.375,27.375,0,0,0,27.375-63.875,27.375,27.375,0,0,0,0-36.5C0-25.463,3.845-22.38,24.562,7.652Zm2.813-32.746A11.406,11.406,0,0,1,15.969-36.5,11.406,11.406,0,0,1,27.375-47.906,11.406,11.406,0,0,1,38.781-36.5,11.406,11.406,0,0,1,27.375-25.094Z" transform="translate(933 567)" fill="#fff"/>
   </g>
 </svg>

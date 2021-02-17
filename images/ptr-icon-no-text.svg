@@ -1,12 +1,9 @@
-<svg id="ptr-icon-no-text" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89.584 70.4">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: #fff;
-      }
-    </style>
-  </defs>
-  <g id="Group_1896" data-name="Group 1896">
-    <path id="Path_1399" data-name="Path 1399" class="cls-1" d="M22.4,123.978h3.2V53.6H22.4Zm19.189,0H44.8V53.6H41.585Zm-12.793,0h9.6V53.6H28.8v70.378Zm-12.793,0H19.21V53.6H16Zm-16,0H3.2V53.6H0Zm6.4,0h6.4V53.6H6.4Zm64,0h3.2V53.6H70.4Zm-22.4,0h6.4V53.6H48Zm28.792,0h6.4V53.6h-6.4ZM86.377,53.6V124h3.207V53.6Zm-22.4,70.378h3.207V53.6h-3.2Zm-6.4,0h3.207V53.6h-3.2Z" transform="translate(0 -53.6)"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+  <g id="Group_7" data-name="Group 7" transform="translate(-900 -480)">
+    <g id="Ellipse_6" data-name="Ellipse 6" transform="translate(900 480)" fill="none" stroke="#0ef799" stroke-width="6">
+      <circle cx="60" cy="60" r="60" stroke="none"/>
+      <circle cx="60" cy="60" r="57" fill="none"/>
+    </g>
+    <path id="Path_3" data-name="Path 3" d="M0,0H2.355V-50.25H0ZM3.515-.036h1.2V-50.25h-1.2Zm3.552,0H8.225V-50.25H7.066Zm5.87,0H14.1V-50.25H12.936Zm4.711,0h2.318V-50.25H17.647Zm5.87,0h1.159V-50.25H23.517Zm2.355,0h1.159V-50.25H25.873Zm2.355,0h1.159V-50.25H28.228Zm4.674,0h2.355V-50.25H32.9Zm5.87,0h2.355V-50.25H38.772Zm4.711,0h2.356V-50.25H43.483Zm4.711,0h2.356V-50.25H48.194Zm3.514,0h2.355V-50.25H51.708Zm5.907,0H61.13V-50.25H57.615Zm4.673,0h1.2V-50.25h-1.2ZM64.644,0H67V-50.25H64.644Z" transform="translate(927 566)" fill="#fff"/>
   </g>
 </svg>

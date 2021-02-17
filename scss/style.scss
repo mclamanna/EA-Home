@@ -13,9 +13,7 @@ $carousel-indicator-active-bg: #0E4194;
 
 //
 
-// Bounce in
-
-
+// Slide in/Fade in
 /* animation duration and fill mode */
 .cssanimation {
   animation-duration: 1s;
@@ -91,8 +89,13 @@ $carousel-indicator-active-bg: #0E4194;
   border-bottom: .08rem solid #000000;
 }
 
+.frontpage3 {
+  background-image: url(/images/Front3.jpg);
+  background-size: cover;
+  border-bottom: .08rem solid #000000;
+}
+
 .toolspage {
-  margin-top: -2rem;
   background-image: url(/images/toolspage.jpg);
   background-size: cover;
   border-top: .08rem solid #000000;
@@ -261,6 +264,13 @@ h2 {
   font-size: 3.4rem;
   font-weight: 600;
   color: #0E4194;
+}
+
+.titleText6 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: #FFFFFF; 
 }
 
 .titleCat {

@@ -19,11 +19,7 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
-    <script>
-      window.onbeforeunload = function() {
-          window.scrollTo(0, 0);
-      }
-  </script>
+
   <!-- Bootstrap core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
   
@@ -59,19 +55,19 @@
                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About</a>
                 <div class="dropdown-menu">
                   <a class="dropdown-item" href="#">Meet The Team</a>
-                  <a class="dropdown-item" href="#">Feedback</a>
+                  <a class="dropdown-item" href="feedback.html">Feedback</a>
                 </div>
               </li>
               <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
                 <a class="nav-link" href="#">Resources</a>
               </li>
               <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-                <a class="nav-link" href="news.html">News</a>
+                <a class="nav-link active" href="news.html">News</a>
               </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
               <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Search</button>
+              <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
             </form>
             <nav class="my-2 my-md-0 mr-md-3">
               <ul class="navbar-nav mr-auto">
@@ -227,7 +223,7 @@
        
       
                           <div class="container-fluid" style="background-color: #0E4194">
-                              <div class="container" align="center">
+                              <div class="container align-center">
                                   <div class="entanaText">Enterprise Analytics Applications <i class="fas fa-cloud"></i></div>
                                 </div>
                             <div class="container bottomLinks">
