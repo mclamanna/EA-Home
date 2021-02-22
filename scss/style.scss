@@ -67,6 +67,10 @@ $carousel-indicator-active-bg: #0E4194;
 
 //
 
+.shadowIcon {
+  filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.6));
+}
+
 .form-control {
     font-family: 'Hind Vadodara', sans-serif;
 }
