@@ -133,6 +133,7 @@
 }
 
 .frontpage3 {
+  margin-top: -2rem;
   background-image: url(/images/Front3.jpg);
   background-size: cover;
   border-bottom: .08rem solid #000000;
