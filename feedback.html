@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="Michael La Manna" content="">
+  <meta name="description" content="Enterprise Analytics website">
+  <meta name="author" content="Michael La Manna">
   <title>Enterprise Analytics</title>
   <link rel="shortcut icon" type="image/png" href="images/favicon.png">
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -12,21 +12,23 @@
   <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Roboto" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Hind+Vadodara:500,600,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,400i|IBM+Plex+Sans+Condensed:400,400i|IBM+Plex+Sans:100,100i,400,400i,700,700i|IBM+Plex+Serif:400,400i" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <!-- Bootstrap core CSS -->
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,400i|IBM+Plex+Sans+Condensed:400,400i|IBM+Plex+Sans:100,100i,400,400i,700,700i|IBM+Plex+Serif:400,400i"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+    integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+<!-- Bootstrap core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
-  
-  <!-- Custom styles for this template -->
+<!-- Custom styles for this template -->
   <link href="scss/style.css" rel="stylesheet">
 </head>
 <body>
-  
-  
+<!--NavBar-->
   <div class="container-fluid">
     <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm">
-      <a class="navbar-brand" href="#"><img src="images/EALogo.svg" width="60" alt="EALogo"></a>
+      <a class="navbar-brand" href="index.html"><img src="images/EALogo.svg" width="60" alt="EALogo"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -62,7 +64,6 @@
                 <a class="nav-link" href="news.html">News</a>
               </li>
             </ul>
-
             <div class="row">
             <form class="col-sm-5 col-md-12 input-group my-2 my-lg-0">
               <input type="text" class="form-control" placeholder="Search" aria-label="Search">
@@ -89,27 +90,26 @@
           </div>
         </nav>
       </div>
-    
-      
-      <div class="jumbotron feedbackpage rounded-0">
+<!---->
+<!--Jumbotron Title Feedback Form-->
+    <div class="jumbotron feedbackpage rounded-0">
         <div class="container-fluid">
       <div class="col-12 p-4 align-center">
          <span class="titleText text-white">Feedback</span><p></p>
       </div>
-
       <div class="container">
+        <div class="row">
+        <div class="col-xl-8 offset-xl-2 py-5">
+      <form id="contact-form" method="post" action="contact.php" role="form">
+        <div class="messages"></div>
+        <div class="controls">
           <div class="row">
-                <div class="col-xl-8 offset-xl-2 py-5">
-        <form id="contact-form" method="post" action="contact.php" role="form">
-            <div class="messages"></div>
-            <div class="controls">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="form-group text-white">
-                            <label for="form_name">Full Name:</label>
-                            <input id="form_name" type="text" name="name" class="form-control" placeholder="" required="required" data-error="">
-                            <div class="help-block with-errors"></div>
-                        </div>
+              <div class="col-md-4">
+                  <div class="form-group text-white">
+                      <label for="form_name">Full Name:</label>
+                        <input id="form_name" type="text" name="name" class="form-control" placeholder="" required="required" data-error="">
+                        <div class="help-block with-errors"></div>
+                  </div>
                         <div class="form-group text-white">
                                 <label for="form_lastname">Phone Number:</label>
                                 <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="" required="required" data-error="">
@@ -121,7 +121,7 @@
                                     <div class="help-block with-errors"></div>
                                 </div>
                     </div>
-                    <div class="col-md-8">
+                  <div class="col-md-8">
                             <div class="form-row">
                                     <div class="col-md-6">
                             <div class="form-group text-white">
@@ -144,7 +144,6 @@
                                 </div>
                                 </div>
                                 </div>
-                     
                             <div class="form-group text-white">
                                     <label for="form_message">Message:</label>
                                     <textarea id="form_message" name="message" class="form-control" placeholder="" rows="5" style="height: 125px;" required="" data-error="Please, leave us a message."></textarea>
@@ -152,7 +151,6 @@
                                     <input type="submit" class="btn btn-outline-primary btn-send text-white" value="Send message">
                                 </div>
                             </div>
-
             </div>
         </form>
     </div>
@@ -161,7 +159,8 @@
 </div>
 </div>
 </div>
-
+<!---->
+<!--Footer-->
 <div class="container-md mt-4 mb-3">
   <div class="row">
     <div class="col col-md">
@@ -200,8 +199,9 @@
     <small class="d-block mb-3 text-muted">© 2021 - USPS Enterprise Analytics - Ver. 2.0</small>
   </div>
 </div>
-            <script src="js/navbarcodepen.js"></script>
-            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+<!---->
+    <script src="js/navbarcodepen.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 </body>
