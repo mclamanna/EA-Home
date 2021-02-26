@@ -12,6 +12,13 @@ $color-light: #E9ECEF;
 $carousel-indicator-active-bg: #0E4194;
 
 //
+li#menu {
+font-size: 1.2rem;
+}
+
+li#user {
+  font-size: .9rem;
+}
 
 // Slide in/Fade in
 /* animation duration and fill mode */
@@ -636,3 +643,26 @@ a.btn.disabled, fieldset:disabled a.btn {
     }
   }
   
+// Media Q-
+
+@media (max-width: 576px){
+  .titleText1 {
+      font-size: 3.2rem;
+  }
+  .titleText2 {
+      font-size: 1.2rem;
+  }
+  }
+
+@media (max-width: 576px){
+  .popularToolsText {
+    margin-top: 4rem;
+    font-size: 2.8rem;
+}
+}
+
+@media (max-width: 576px){
+  .titleText6 {
+    font-size: 2.4rem;
+}
+}

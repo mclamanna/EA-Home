@@ -36,7 +36,7 @@
       </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto py-4 py-md-0">
-              <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+              <li id="menu" class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Tools</a>
                 <div class="dropdown-menu">
                   <a class="dropdown-item" href="analytictools.html">Analytic Tools</a>
@@ -45,34 +45,41 @@
                   <a class="dropdown-item" href="https://usps365.sharepoint.com/sites/AdvancedAnalyticsProjectCharter/SitePages/Advanced-Analytics.aspx">Advanced Analytics</a>
                 </div>
               </li>
-              <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+              <li id="menu" class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Learn</a>
                 <div class="dropdown-menu">
                   <a class="dropdown-item" href="https://bluetube.usps.gov/">BlueTube®</a>
                   <a class="dropdown-item" href="https://au.usps.gov/login/loginWarning.cfm">Analytics University</a>
                 </div>
               </li>
-              <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+              <li id="menu" class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About</a>
                 <div class="dropdown-menu">
                   <a class="dropdown-item" href="#">Meet The Team</a>
                   <a class="dropdown-item" href="feedback.html">Feedback</a>
                 </div>
               </li>
-              <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+              <li id="menu" class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
                 <a class="nav-link" href="#">Resources</a>
               </li>
-              <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-                <a class="nav-link active" href="news.html">News</a>
+              <li id="menu" class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                <a class="nav-link" href="news.html">News</a>
               </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0">
-              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
-            </form>
+
+            <div class="row">
+            <form class="col-sm-5 col-md-12 input-group my-2 my-lg-0">
+              <input type="text" class="form-control" placeholder="Search" aria-label="Search">
+              <div class="input-group-append">
+                   <button class="btn btn-outline-secondary" type="submit">
+                        <i class="fas fa-search"></i>
+                   </button>
+             </div>
+        </form>
+        </div>
             <nav class="my-2 my-md-0 mr-md-3">
               <ul class="navbar-nav mr-auto">
-                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                <li id="user" class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <i class="fas fa-user"></i> Michael (K5HXMB)
                   </a>
@@ -86,25 +93,23 @@
           </div>
         </nav>
       </div>
-      
     
-              <div class="jumbotron newspage rounded-0">
-                <div class="container-fluid">
-                    <div class="col-8 NewsPage">
-                      <div class="titleText1">Enterprise Analytic News</div>
-                      <div class="titleText2 mt-4">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.</div>
-                      <p class="lead mb-0"></p><a class="newanchor js-scroll-trigger" href="#firstnews">Continue reading...</a></p>
-                    </div>
+      <div class="jumbotron newspage rounded-0">
+        <div class="container-fluid">
+             <div class="row">
+                  <div class="col NewsPage">
+                       <div class="titleText1">Enterprise Analytics News</div>
+                       <div class="titleText2 mt-4">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.</div>
+                       <p class="lead mb-0"></p><a class="newanchor js-scroll-trigger" href="#firstnews">Continue reading...</a></p>
                   </div>
-                  
-                  <div class="container-fluid mb-5">
-                    <div class="row">
-                      <div class="col-3 mt-5 ml-4">
-                      <a href="#" class="newanchor"><img src="images/Newsletter.svg" width="40" alt="..."><span class="mini">Subscribe to our newsletter</span></a>
-                      </div>
-                   </div>
+             </div>
+             <div class="row mb-5 ml-2">
+                  <div class="col-12 col-md-4 mt-5">
+                       <a href="#" class="newanchor"><img src="images/Newsletter.svg" width="40" alt="..."><span class="mini">Subscribe to our newsletter</span></a>
                   </div>
             </div>
+       </div>
+   </div>
 
             
             <main role="main" class="container">

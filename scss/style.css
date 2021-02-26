@@ -1,3 +1,11 @@
+li#menu {
+  font-size: 1.2rem;
+}
+
+li#user {
+  font-size: .9rem;
+}
+
 /* animation duration and fill mode */
 .cssanimation {
   -webkit-animation-duration: 1s;
@@ -12412,6 +12420,28 @@ fieldset:disabled a.btn {
   .dropdown-toggle[aria-expanded="true"] + .dropdown-menu {
     margin-top: 10px !important;
     margin-bottom: 20px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .titleText1 {
+    font-size: 3.2rem;
+  }
+  .titleText2 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .popularToolsText {
+    margin-top: 4rem;
+    font-size: 2.8rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .titleText6 {
+    font-size: 2.4rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
