@@ -3,6 +3,7 @@ li#menu {
 }
 
 li#user {
+  color: #777;
   font-size: .9rem;
 }
 
@@ -12281,7 +12282,7 @@ fieldset:disabled a.btn {
 
 .nav-link {
   position: relative;
-  padding: 5px 0 !important;
+  padding: 4px 0 !important;
   display: inline-block;
 }
 
@@ -12381,6 +12382,7 @@ fieldset:disabled a.btn {
     display: none;
   }
   .nav-item::before {
+    margin-top: .2rem;
     position: absolute;
     display: block;
     top: 15px;
@@ -12392,10 +12394,11 @@ fieldset:disabled a.btn {
     background-color: #000;
   }
   .dropdown-toggle::after {
+    margin-top: .2rem;
     position: absolute;
     display: block;
     top: 10px;
-    left: -23px;
+    left: -24px;
     width: 1px;
     height: 11px;
     content: "";
@@ -12420,6 +12423,12 @@ fieldset:disabled a.btn {
   .dropdown-toggle[aria-expanded="true"] + .dropdown-menu {
     margin-top: 10px !important;
     margin-bottom: 20px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .FrontPage {
+    margin-top: 5rem;
   }
 }
 

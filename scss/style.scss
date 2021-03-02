@@ -18,6 +18,7 @@ font-size: 1.2rem;
 }
 
 li#user {
+  color: #777;
   font-size: .9rem;
 }
 
@@ -499,7 +500,7 @@ a.btn.disabled, fieldset:disabled a.btn {
   
 .nav-link {
     position: relative;
-    padding: 5px 0 !important;
+    padding: 4px 0 !important;
     display: inline-block;
 }
   
@@ -598,10 +599,13 @@ a.btn.disabled, fieldset:disabled a.btn {
     h1 {
       font-size: 38px;
 }
+
     .nav-item:after {
       display: none;
 }
+
     .nav-item::before {
+      margin-top: .2rem;
       position: absolute;
       display: block;
       top: 15px;
@@ -612,11 +616,13 @@ a.btn.disabled, fieldset:disabled a.btn {
       border: none;
       background-color: #000;
 }
+
 .dropdown-toggle::after {
+      margin-top: .2rem;
       position: absolute;
       display: block;
       top: 10px;
-      left: -23px;
+      left: -24px;
       width: 1px;
       height: 11px;
       content: "";
@@ -625,11 +631,13 @@ a.btn.disabled, fieldset:disabled a.btn {
       -webkit-transition: all 200ms linear;
       transition: all 200ms linear;
 }
+
 .dropdown-toggle[aria-expanded="true"]::after {
       -webkit-transform: rotate(90deg);
               transform: rotate(90deg);
       opacity: 0;
 }
+
     .dropdown-menu {
       padding: 0 !important;
       background-color: transparent;
@@ -645,6 +653,12 @@ a.btn.disabled, fieldset:disabled a.btn {
   }
   
 // Media Q-
+
+@media (max-width: 576px){
+.FrontPage {
+    margin-top: 5rem;
+}
+}
 
 @media (max-width: 576px){
   .titleText1 {
