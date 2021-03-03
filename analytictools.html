@@ -19,6 +19,11 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
   </script>
+<script>
+    AOS.init();
+  </script>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <!-- Bootstrap core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
 <!-- Custom styles for this template -->
@@ -64,7 +69,7 @@
                       href="https://usps365.sharepoint.com/sites/AdvancedAnalyticsProjectCharter/SitePages/Advanced-Analytics.aspx">Advanced
                       Analytics</a>
                       <a class="dropdown-item"
-                        href="https://usps365.sharepoint.com/sites/AdvancedAnalyticsProjectCharter/SitePages/Advanced-Analytics.aspx">Corporat Reporting Communication</a>
+                        href="https://ea/DITL/index.html">Corporat Reporting Communication</a>
                     </div>
                   </li>
                   <li id="menu" class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
@@ -115,14 +120,14 @@
         <div class="row justify-content-center shadowIcon cssanimation bounceInLeft">
           <div class="col-md-auto mb-4">
             <div class="card bg-light mb-3 shadow-sm h-100" style="max-width: 18rem;">
-                <div class="card-header"><span class="reportTitle">Application Title</span></div>
+                <div class="card-header"><span class="reportTitle">Bundle Visibility</span></div>
                 <div class="card-body">
-                    <p class="card-text">Description of application can go here.</p>
+                    <p class="card-text">Assists in tracking mail volume as it travels through the Postal Service processing and delivery network.</p>
                 </div>
                 <div class="card-footer">
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
-                            <button type="button" class="btn btn-sm btn-outline-primary">View</button>
+                            <a href="http://imbiz01.eng.usps.gov:9085/bv_plant_vis.cfm"  type="button" class="btn btn-sm btn-outline-primary">View</a>
                         </div>
                     </div>
                 </div>
@@ -130,14 +135,15 @@
         </div>
         <div class="col-md-auto mb-4">
           <div class="card bg-light mb-3 shadow-sm h-100" style="max-width: 18rem;">
-              <div class="card-header"><span class="reportTitle">Application Title</span></div>
+              <div class="card-header"><span class="reportTitle">Mail Condition Visualization</span></div>
               <div class="card-body">
-                  <p class="card-text">Description of application can go here.</p>
+                  <p class="card-text">Provides near real-time visibility of a facility’s on-hand volume, 
+                      delayed processing volume, and delayed dispatch volume by mail category and processing operation and stores historical trailer information.</p>
               </div>
               <div class="card-footer">
                   <div class="d-flex justify-content-between align-items-center">
                       <div class="btn-group">
-                          <button type="button" class="btn btn-sm btn-outline-primary">View</button>
+                        <a href="https://iv.usps.gov/ivui/#/pw/wm/mcvreorg"  type="button" class="btn btn-sm btn-outline-primary">View</a>
                       </div>
                   </div>
               </div>
@@ -145,14 +151,14 @@
       </div>
       <div class="col-md-auto mb-4">
         <div class="card bg-light mb-3 shadow-sm h-100" style="max-width: 18rem;">
-            <div class="card-header"><span class="reportTitle">Application Title</span></div>
+            <div class="card-header"><span class="reportTitle">Last Mile Diagnostics</span></div>
             <div class="card-body">
-                <p class="card-text">Description of application can go here.</p>
+                <p class="card-text">Impact of Delivery on Mail Service Performance.</p>
             </div>
             <div class="card-footer">
                 <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-primary">View</button>
+                        <a href="https://eaqlik.usps.gov/sense/app/b4e22134-cf48-4e20-b33b-fa1d53058a74/sheet/233f3768-5ef0-48ef-9d8a-e1c9496aa282/state/analysis"  type="button" class="btn btn-sm btn-outline-primary">View</a>
                     </div>
                 </div>
             </div>
@@ -160,14 +166,15 @@
     </div>
     <div class="col-md-auto mb-4">
       <div class="card bg-light mb-3 shadow-sm h-100" style="max-width: 18rem;">
-          <div class="card-header"><span class="reportTitle">Application Title</span></div>
+          <div class="card-header"><span class="reportTitle">Mail Processing Performance</span></div>
           <div class="card-body">
-              <p class="card-text">Description of application can go here.</p>
+              <p class="card-text">Provides insight into processing failures by week, 
+                  month, or quarter. A processing failure is a mailpiece that did not meet the service standard for its mail product type.</p>
           </div>
           <div class="card-footer">
               <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-primary">View</button>
+                    <a href="https://spd.usps.gov/MPPV/visMPPV.cfm"  type="button" class="btn btn-sm btn-outline-primary">View</a>
                   </div>
               </div>
           </div>
@@ -246,14 +253,14 @@
                 <div class="row justify-content-center shadowIcon cssanimation bounceInRight">
                   <div class="col-md-auto mb-4">
                     <div class="card bg-light mb-3 shadow-sm h-100" style="max-width: 18rem;">
-                        <div class="card-header"><span class="reportTitle">Application Title</span></div>
+                        <div class="card-header"><span class="reportTitle">Sampling Detail</span></div>
                         <div class="card-body">
                             <p class="card-text">Description of application can go here.</p>
                         </div>
                         <div class="card-footer">
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-primary">View</button>
+                                    <a href="https://iv.usps.gov/ivui/#/spm/scan/detail"  type="button" class="btn btn-sm btn-outline-primary">View</a>
                                 </div>
                             </div>
                         </div>
@@ -584,6 +591,77 @@
                 </div>
             </div>
 <!---->      
+<!--Tools Maintenance-->
+<div class="jumbotron miscellaneous rounded-0" align="center">
+    <div class="row">
+        <div class="col-12 mb-4">
+            <span class="titleText5">Miscellaneous</span>
+        </div>
+    </div>
+    <div class="row justify-content-center shadowIcon cssanimation bounceInLeft">
+      <div class="col-md-auto mb-4">
+        <div class="card bg-light mb-3 shadow-sm h-100" style="max-width: 18rem;">
+            <div class="card-header"><span class="reportTitle">Peak Season</span></div>
+            <div class="card-body">
+                <p class="card-text">Peak season 2021 reports.</p>
+            </div>
+            <div class="card-footer">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                        <a href="https://ea.usps.gov/PeakSeason/peak-season-reports.html"  type="button" class="btn btn-sm btn-outline-primary">View</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-auto mb-4">
+      <div class="card bg-light mb-3 shadow-sm h-100" style="max-width: 18rem;">
+          <div class="card-header"><span class="reportTitle">Application Title</span></div>
+          <div class="card-body">
+              <p class="card-text">Description of application can go here.</p>
+          </div>
+          <div class="card-footer">
+              <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-primary">View</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="col-md-auto mb-4">
+    <div class="card bg-light mb-3 shadow-sm h-100" style="max-width: 18rem;">
+        <div class="card-header"><span class="reportTitle">Application Title</span></div>
+        <div class="card-body">
+            <p class="card-text">Description of application can go here.</p>
+        </div>
+        <div class="card-footer">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-primary">View</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-md-auto mb-4">
+  <div class="card bg-light mb-3 shadow-sm h-100" style="max-width: 18rem;">
+      <div class="card-header"><span class="reportTitle">Application Title</span></div>
+      <div class="card-body">
+          <p class="card-text">Description of application can go here.</p>
+      </div>
+      <div class="card-footer">
+          <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-primary">View</button>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+    </div>
+</div>
+<!---->    
 <!--Enterprise Ananlytics Applications-->
             <div class="jumbotron frontpage3 rounded-0">
                 <div class="container align-center mb-4">
@@ -699,45 +777,43 @@
             </div>
           </div>
 <!---->
-<!--Footer-->            
-          <div class="container-md mt-4 mb-3">
-            <div class="row">
-              <div class="col col-md">
-                <h5>Tools</h5>
-                <ul class="list-unstyled text-small">
-                  <li><a class="text-muted" href="analytictools.html">Analtyic Tools</a></li>
-                  <li><a class="text-muted" href="https://edm.usps.gov/">Enterprise Data Management</a></li>
-                  <li><a class="text-muted" href="https://iv.usps.gov/">Informed Visibility</a></li>
-                </ul>
-              </div>
-              <div class="col col-md">
-                <h5>Learn</h5>
-                <ul class="list-unstyled text-small">
-                  <li><a class="text-muted" href="https://bluetube.usps.gov/">BlueTube®</a></li>
-                  <li><a class="text-muted" href="https://au.usps.gov/login/loginWarning.cfm">Analytics University</a></li>
-                </ul>
-              </div>
-              <div class="col col-md">
-                <h5>About</h5>
-                <ul class="list-unstyled text-small">
-                  <li><a class="text-muted" href="#">Meet The Team</a></li>
-                  <li><a class="text-muted" href="feedback.html">Feedback</a></li>
-                </ul>
-              </div>
-              <div class="col col-md">
-                <h5>Resources</h5>
-                <ul class="list-unstyled text-small">
-                  <li><a class="text-muted" href="#">Filler Text</a></li>
-                  <li><a class="text-muted" href="#">Filler Text</a></li>
-                  <li><a class="text-muted" href="#">Filler Text</a></li>
-                  <li><a class="text-muted" href="#">Filler Text</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="col align-center">
-              <small class="d-block mb-3 text-muted">© 2021 - USPS Enterprise Analytics - Ver. 2.0</small>
-            </div>
-          </div>
+<!--Footer-->
+<div class="container-md mt-4 mb-3">
+    <div class="row">
+      <div class="col col-md">
+        <h5>Tools</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-muted" href="analytictools.html">Analtyic Tools</a></li>
+          <li><a class="text-muted" href="https://iv.usps.gov/">Informed Visibility</a></li>
+        </ul>
+      </div>
+      <div class="col col-md">
+        <h5>Learn</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-muted" href="https://bluetube.usps.gov/">BlueTube®</a></li>
+          <li><a class="text-muted" href="https://au.usps.gov/login/loginWarning.cfm">Analytics University</a></li>
+        </ul>
+      </div>
+      <div class="col col-md">
+        <h5>About</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-muted" href="#">Meet The Team</a></li>
+          <li><a class="text-muted" href="feedback.html">Feedback</a></li>
+        </ul>
+      </div>
+      <div class="col col-md">
+        <h5>Resources</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-muted" href="https://edm.usps.gov/">Enterprise Data Management</a></li>
+          <li><a class="text-muted" href="https://usps365.sharepoint.com/sites/AdvancedAnalyticsProjectCharter/SitePages/Advanced-Analytics.aspx">Advanced Analytics</a></li>
+          <li><a class="text-muted" href="https://ea/DITL/index.html">Corporate Reporting Communication</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="col align-center">
+      <small class="d-block mb-3 text-muted">© 2021 - USPS Enterprise Analytics - Ver. 2.0</small>
+    </div>
+  </div>
 <!---->
         <script src="js/navbarcodepen.js"></script>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

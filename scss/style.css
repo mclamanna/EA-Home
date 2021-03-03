@@ -197,6 +197,13 @@ video {
   border-bottom: .08rem solid #000000;
 }
 
+.miscellaneous {
+  margin-top: -2rem;
+  background-image: url(/images/Usps5.jpg);
+  background-size: cover;
+  border-bottom: .08rem solid #000000;
+}
+
 .FrontPage {
   margin-top: 8rem;
 }
