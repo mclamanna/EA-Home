@@ -3,7 +3,6 @@ li#menu {
 }
 
 li#user {
-  color: #777;
   font-size: .9rem;
 }
 
@@ -169,14 +168,14 @@ video {
   outline: none;
 }
 
-.mailprocessing {
+.processingoperations {
   margin-top: -2rem;
   background-image: url(/images/Usps2.jpg);
   background-size: cover;
   border-bottom: .08rem solid #000000;
 }
 
-.delivery {
+.retaildelivery {
   margin-top: -2rem;
   background-image: url(/images/Usps1.jpg);
   background-size: cover;
@@ -197,7 +196,7 @@ video {
   border-bottom: .08rem solid #000000;
 }
 
-.miscellaneous {
+.usefultools {
   margin-top: -2rem;
   background-image: url(/images/Usps5.jpg);
   background-size: cover;
