@@ -6,6 +6,14 @@ li#user {
   font-size: .9rem;
 }
 
+.car1 {
+  color: #ffffff;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  border-radius: 25px;
+}
+
 /* animation duration and fill mode */
 .cssanimation {
   -webkit-animation-duration: 1s;
